@@ -5,6 +5,7 @@ library(maps)
 library(ggthemes)
 library(tidyverse)
 library(plotly)
+library(shinyjs)
 
 world <- map_data("world") 
 countries <- world %>% distinct(region) %>% pull()
@@ -16,8 +17,8 @@ p <- ggplot() +
                  colour="snow",fill="grey",size=.2) +
     theme_map()
 
-ui <- fluidPage(title = "World Countries Quiz",
-
+ui <- fluidPage(useShinyjs(),
+    title = "World Countries Quiz",
     titlePanel(h1("How many countries do you know?", align="center",tags$title('This is my page'))),
     fluidRow(
         column(12,
@@ -29,12 +30,24 @@ ui <- fluidPage(title = "World Countries Quiz",
         column(12,
         plotlyOutput("map", height="600px"),
         align = "center")
-        )
+        ),
+    fluidRow(
+        column(12,
+        actionButton("show_missing", "Show missing"),
+        align = "center")
+    ),
+    fluidRow(
+        column(12,
+        tableOutput("missing_countries"),
+        align="center")
+    )
 )
 
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
+    
+    show("hide_missing")
     
     output$count <- renderText(glue::glue("{length(rv$named_countries)} / {n_countries}"))
     
@@ -47,6 +60,9 @@ server <- function(input, output, session) {
     )
     
     observeEvent(input$input, {
+        
+        show("show_missing")
+        hide("missing_countries")
         
         rv$inputs <- append(rv$inputs, input$input)
 
@@ -66,7 +82,20 @@ server <- function(input, output, session) {
                                  fill="slateblue4",colour="snow")
             })
             output$count <- renderText(glue::glue("{length(rv$named_countries)} / {n_countries}"))
+            
         }
+    })
+    
+    observeEvent(input$show_missing, {
+        
+        hide("show_missing")
+        show("missing_countries")
+        
+        output$missing_countries <- renderTable({
+        
+            missing <- setdiff(countries, rv$named_countries)
+            missing_df <- tibble(Country = missing) %>% arrange(Country)
+        })
     })
 }
 
