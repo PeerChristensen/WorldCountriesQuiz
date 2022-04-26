@@ -1,0 +1,223 @@
+COUNTRY,GDP (BILLIONS),CODE,country
+Afghanistan,21.71,AFG,afghanistan
+Albania,13.4,ALB,albania
+Algeria,227.8,DZA,algeria
+American Samoa,0.75,ASM,american samoa
+Andorra,4.8,AND,andorra
+Angola,131.4,AGO,angola
+Anguilla,0.18,AIA,anguilla
+Antigua and Barbuda,1.24,ATG,antigua and barbuda
+Argentina,536.2,ARG,argentina
+Armenia,10.88,ARM,armenia
+Aruba,2.52,ABW,aruba
+Australia,1483,AUS,australia
+Austria,436.1,AUT,austria
+Azerbaijan,77.91,AZE,azerbaijan
+"Bahamas, The",8.65,BHM,"bahamas, the"
+Bahrain,34.05,BHR,bahrain
+Bangladesh,186.6,BGD,bangladesh
+Barbados,4.28,BRB,barbados
+Belarus,75.25,BLR,belarus
+Belgium,527.8,BEL,belgium
+Belize,1.67,BLZ,belize
+Benin,9.24,BEN,benin
+Bermuda,5.2,BMU,bermuda
+Bhutan,2.09,BTN,bhutan
+Bolivia,34.08,BOL,bolivia
+Bosnia and Herzegovina,19.55,BIH,bosnia and herzegovina
+Botswana,16.3,BWA,botswana
+Brazil,2244,BRA,brazil
+British Virgin Islands,1.1,VGB,british virgin islands
+Brunei,17.43,BRN,brunei
+Bulgaria,55.08,BGR,bulgaria
+Burkina Faso,13.38,BFA,burkina faso
+Burma,65.29,MMR,burma
+Burundi,3.04,BDI,burundi
+Cabo Verde,1.98,CPV,cabo verde
+Cambodia,16.9,KHM,cambodia
+Cameroon,32.16,CMR,cameroon
+Canada,1794,CAN,canada
+Cayman Islands,2.25,CYM,cayman islands
+Central African Republic,1.73,CAF,central african republic
+Chad,15.84,TCD,chad
+Chile,264.1,CHL,chile
+China,10360,CHN,china
+Colombia,400.1,COL,colombia
+Comoros,0.72,COM,comoros
+"Congo, Democratic Republic of the",32.67,COD,"congo, democratic republic of the"
+"Congo, Republic of the",14.11,COG,"congo, republic of the"
+Cook Islands,0.18,COK,cook islands
+Costa Rica,50.46,CRI,costa rica
+Cote d'Ivoire,33.96,CIV,cote d'ivoire
+Croatia,57.18,HRV,croatia
+Cuba,77.15,CUB,cuba
+Curacao,5.6,CUW,curacao
+Cyprus,21.34,CYP,cyprus
+Czech Republic,205.6,CZE,czech republic
+Denmark,347.2,DNK,denmark
+Djibouti,1.58,DJI,djibouti
+Dominica,0.51,DMA,dominica
+Dominican Republic,64.05,DOM,dominican republic
+Ecuador,100.5,ECU,ecuador
+Egypt,284.9,EGY,egypt
+El Salvador,25.14,SLV,el salvador
+Equatorial Guinea,15.4,GNQ,equatorial guinea
+Eritrea,3.87,ERI,eritrea
+Estonia,26.36,EST,estonia
+Ethiopia,49.86,ETH,ethiopia
+Falkland Islands (Islas Malvinas),0.16,FLK,falkland islands (islas malvinas)
+Faroe Islands,2.32,FRO,faroe islands
+Fiji,4.17,FJI,fiji
+Finland,276.3,FIN,finland
+France,2902,FRA,france
+French Polynesia,7.15,PYF,french polynesia
+Gabon,20.68,GAB,gabon
+"Gambia, The",0.92,GMB,"gambia, the"
+Georgia,16.13,GEO,georgia
+Germany,3820,DEU,germany
+Ghana,35.48,GHA,ghana
+Gibraltar,1.85,GIB,gibraltar
+Greece,246.4,GRC,greece
+Greenland,2.16,GRL,greenland
+Grenada,0.84,GRD,grenada
+Guam,4.6,GUM,guam
+Guatemala,58.3,GTM,guatemala
+Guernsey,2.74,GGY,guernsey
+Guinea-Bissau,1.04,GNB,guinea-bissau
+Guinea,6.77,GIN,guinea
+Guyana,3.14,GUY,guyana
+Haiti,8.92,HTI,haiti
+Honduras,19.37,HND,honduras
+Hong Kong,292.7,HKG,hong kong
+Hungary,129.7,HUN,hungary
+Iceland,16.2,ISL,iceland
+India,2048,IND,india
+Indonesia,856.1,IDN,indonesia
+Iran,402.7,IRN,iran
+Iraq,232.2,IRQ,iraq
+Ireland,245.8,IRL,ireland
+Isle of Man,4.08,IMN,isle of man
+Israel,305,ISR,israel
+Italy,2129,ITA,italy
+Jamaica,13.92,JAM,jamaica
+Japan,4770,JPN,japan
+Jersey,5.77,JEY,jersey
+Jordan,36.55,JOR,jordan
+Kazakhstan,225.6,KAZ,kazakhstan
+Kenya,62.72,KEN,kenya
+Kiribati,0.16,KIR,kiribati
+"Korea, North",28,PRK,"korea, north"
+"Korea, South",1410,KOR,"korea, south"
+Kosovo,5.99,KSV,kosovo
+Kuwait,179.3,KWT,kuwait
+Kyrgyzstan,7.65,KGZ,kyrgyzstan
+Laos,11.71,LAO,laos
+Latvia,32.82,LVA,latvia
+Lebanon,47.5,LBN,lebanon
+Lesotho,2.46,LSO,lesotho
+Liberia,2.07,LBR,liberia
+Libya,49.34,LBY,libya
+Liechtenstein,5.11,LIE,liechtenstein
+Lithuania,48.72,LTU,lithuania
+Luxembourg,63.93,LUX,luxembourg
+Macau,51.68,MAC,macau
+Macedonia,10.92,MKD,macedonia
+Madagascar,11.19,MDG,madagascar
+Malawi,4.41,MWI,malawi
+Malaysia,336.9,MYS,malaysia
+Maldives,2.41,MDV,maldives
+Mali,12.04,MLI,mali
+Malta,10.57,MLT,malta
+Marshall Islands,0.18,MHL,marshall islands
+Mauritania,4.29,MRT,mauritania
+Mauritius,12.72,MUS,mauritius
+Mexico,1296,MEX,mexico
+"Micronesia, Federated States of",0.34,FSM,"micronesia, federated states of"
+Moldova,7.74,MDA,moldova
+Monaco,6.06,MCO,monaco
+Mongolia,11.73,MNG,mongolia
+Montenegro,4.66,MNE,montenegro
+Morocco,112.6,MAR,morocco
+Mozambique,16.59,MOZ,mozambique
+Namibia,13.11,NAM,namibia
+Nepal,19.64,NPL,nepal
+Netherlands,880.4,NLD,netherlands
+New Caledonia,11.1,NCL,new caledonia
+New Zealand,201,NZL,new zealand
+Nicaragua,11.85,NIC,nicaragua
+Nigeria,594.3,NGA,nigeria
+Niger,8.29,NER,niger
+Niue,0.01,NIU,niue
+Northern Mariana Islands,1.23,MNP,northern mariana islands
+Norway,511.6,NOR,norway
+Oman,80.54,OMN,oman
+Pakistan,237.5,PAK,pakistan
+Palau,0.65,PLW,palau
+Panama,44.69,PAN,panama
+Papua New Guinea,16.1,PNG,papua new guinea
+Paraguay,31.3,PRY,paraguay
+Peru,208.2,PER,peru
+Philippines,284.6,PHL,philippines
+Poland,552.2,POL,poland
+Portugal,228.2,PRT,portugal
+Puerto Rico,93.52,PRI,puerto rico
+Qatar,212,QAT,qatar
+Romania,199,ROU,romania
+Russia,2057,RUS,russia
+Rwanda,8,RWA,rwanda
+Saint Kitts and Nevis,0.81,KNA,saint kitts and nevis
+Saint Lucia,1.35,LCA,saint lucia
+Saint Martin,0.56,MAF,saint martin
+Saint Pierre and Miquelon,0.22,SPM,saint pierre and miquelon
+Saint Vincent and the Grenadines,0.75,VCT,saint vincent and the grenadines
+Samoa,0.83,WSM,samoa
+San Marino,1.86,SMR,san marino
+Sao Tome and Principe,0.36,STP,sao tome and principe
+Saudi Arabia,777.9,SAU,saudi arabia
+Senegal,15.88,SEN,senegal
+Serbia,42.65,SRB,serbia
+Seychelles,1.47,SYC,seychelles
+Sierra Leone,5.41,SLE,sierra leone
+Singapore,307.9,SGP,singapore
+Sint Maarten,304.1,SXM,sint maarten
+Slovakia,99.75,SVK,slovakia
+Slovenia,49.93,SVN,slovenia
+Solomon Islands,1.16,SLB,solomon islands
+Somalia,2.37,SOM,somalia
+South Africa,341.2,ZAF,south africa
+South Sudan,11.89,SSD,south sudan
+Spain,1400,ESP,spain
+Sri Lanka,71.57,LKA,sri lanka
+Sudan,70.03,SDN,sudan
+Suriname,5.27,SUR,suriname
+Swaziland,3.84,SWZ,swaziland
+Sweden,559.1,SWE,sweden
+Switzerland,679,CHE,switzerland
+Syria,64.7,SYR,syria
+Taiwan,529.5,TWN,taiwan
+Tajikistan,9.16,TJK,tajikistan
+Tanzania,36.62,TZA,tanzania
+Thailand,373.8,THA,thailand
+Timor-Leste,4.51,TLS,timor-leste
+Togo,4.84,TGO,togo
+Tonga,0.49,TON,tonga
+Trinidad and Tobago,29.63,TTO,trinidad and tobago
+Tunisia,49.12,TUN,tunisia
+Turkey,813.3,TUR,turkey
+Turkmenistan,43.5,TKM,turkmenistan
+Tuvalu,0.04,TUV,tuvalu
+Uganda,26.09,UGA,uganda
+Ukraine,134.9,UKR,ukraine
+United Arab Emirates,416.4,ARE,united arab emirates
+United Kingdom,2848,GBR,united kingdom
+United States,17420,USA,united states
+Uruguay,55.6,URY,uruguay
+Uzbekistan,63.08,UZB,uzbekistan
+Vanuatu,0.82,VUT,vanuatu
+Venezuela,209.2,VEN,venezuela
+Vietnam,187.8,VNM,vietnam
+Virgin Islands,5.08,VGB,virgin islands
+West Bank,6.64,WBG,west bank
+Yemen,45.45,YEM,yemen
+Zambia,25.61,ZMB,zambia
+Zimbabwe,13.74,ZWE,zimbabwe

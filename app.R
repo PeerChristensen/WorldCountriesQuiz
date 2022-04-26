@@ -1,3 +1,10 @@
+# ------------------------------------------------------------------------------
+# WORLD COUNTRIES QUIZ SHINY APP
+# PEER CHRISTENSEN
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# PACKAGES
 
 library(shiny)
 library(shinyWidgets)
@@ -7,9 +14,15 @@ library(tidyverse)
 library(plotly)
 library(shinyjs)
 
+# ------------------------------------------------------------------------------
+# DATA
+
 world <- map_data("world") 
 countries <- world %>% distinct(region) %>% pull()
 n_countries <- length(countries)
+
+# ------------------------------------------------------------------------------
+# WORLD MAP
 
 p <- ggplot() +
     geom_polygon(data = world, 
@@ -17,34 +30,40 @@ p <- ggplot() +
                  colour="snow",fill="grey",size=.2) +
     theme_map()
 
+# ------------------------------------------------------------------------------
+# UI
+
 ui <- fluidPage(useShinyjs(),
     title = "World Countries Quiz",
     titlePanel(h1("How many countries do you know?", align="center",tags$title('This is my page'))),
     fluidRow(
         column(12,
-        textInput("input",""),
+        textInput("input",label = "", placeholder = "Type country names here"),
         h4(textOutput("count")),
         align = "center")
         ),
     fluidRow(
         column(12,
-        plotlyOutput("map", height="600px"),
+        plotlyOutput("map", height="550px", width="1300px"),
         align = "center")
         ),
     fluidRow(
         column(12,
-        actionButton("show_missing", "Show missing"),
+        actionButton("show_missing", "Show missing country names"),
         align = "center")
     ),
     fluidRow(
         column(12,
         tableOutput("missing_countries"),
         align="center")
-    )
+    ),
+    br(),
+    br()
 )
 
+# ------------------------------------------------------------------------------
+# SERVER
 
-# Define server logic required to draw a histogram
 server <- function(input, output, session) {
     
     show("hide_missing")
@@ -64,11 +83,9 @@ server <- function(input, output, session) {
         show("show_missing")
         hide("missing_countries")
         
-        rv$inputs <- append(rv$inputs, input$input)
-
         if (input$input %in% countries) {
             
-            updateTextInput(session,"input", "Input", value="")
+            updateTextInput(session,"input", "", value="", placeholder="")
             
             if (!input$input %in% rv$named_countries) {
                 rv$named_countries <- append(rv$named_countries, input$input)
@@ -81,8 +98,6 @@ server <- function(input, output, session) {
                                  aes(x= long, y = lat, group=group,text=region),
                                  fill="slateblue4",colour="snow")
             })
-            output$count <- renderText(glue::glue("{length(rv$named_countries)} / {n_countries}"))
-            
         }
     })
     
@@ -98,5 +113,8 @@ server <- function(input, output, session) {
         })
     })
 }
+
+# ------------------------------------------------------------------------------
+# RUN APP
 
 shinyApp(ui = ui, server = server)
